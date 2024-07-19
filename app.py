@@ -10,4 +10,4 @@ with gradio.Blocks() as demo:
     textbox = gradio.Textbox(placeholder="Enter text block to summarize", lines=4)
     gradio.Interface(fn=predict, inputs=textbox, outputs="text")
 
-demo.lauch()
+demo.launch()
